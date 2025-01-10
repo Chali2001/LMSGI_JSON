@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Motos a la venta en la botiga online-->
+<botiga>
+    <!--Producte 1-->
+    <producte codi="M001" estat="enEstoc">
+        <!--Descripció Producte 1-->
+        <nom>MT09 SP</nom>
+        <descripcio>Moto de marchas amb suspensions ohlins.</descripcio>
+        <preu>14.000</preu>
+        <categoria>HyperNaked</categoria>
+        <imatge>https://cdn2.yamaha-motor.eu/prod/product-assets/2024/MT09DX/2024-Yamaha-MT09DX-EU-Icon_Performance-360-Degrees-001-03_Mobile.jpg</imatge>
+    </producte>
+    <!--Producte 2-->
+    <producte codi="R001" estat="esgotat">
+        <!--Descripcio Producte 2
+        -->
+        <nom>R9</nom>
+        <descripcio>Moto derivada de la mt09 amb carenat i preparada per circuit.</descripcio>
+        <preu>15.900</preu>
+        <categoria>SuperSport</categoria>
+        <imatge>https://cdn2.yamaha-motor.eu/prod/product-assets/2025/YZF900R9/2025-Yamaha-YZF900R9-EU-Icon_Blue-360-Degrees-001-03_Mobile.jpg</imatge>
+    </producte>
+</botiga>
+    
