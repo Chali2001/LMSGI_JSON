@@ -1,0 +1,101 @@
+{
+    "pokemons": [
+        {
+            "id": "0001",
+            "nom": "Bulbasaur",
+            "tipus":[
+                "planta",
+                "verí"
+            ],
+            "pes": {
+                "unitat_de_mesura": "kg",
+                "valor": 6.9
+            },
+            "altura": {
+                "unitat_de_mesura": "m",
+                "valor": 0.7
+            },
+            "estadístiques": {
+                "velocitat": 3,
+                "fortalesa": 3,
+                "precisió": 4,
+                "resistència": 4
+            },
+            "moviments": [
+                {
+                    "nom": "Látigo cepa",
+                    "descripció": "es un movimiento de tipo planta introducido en la primera generación",
+                    "potència": 45,
+                    "contacte": true
+                },
+                {
+                    "nom": "Polvo veneno",
+                    "descripció": "es un movimiento de tipo veneno introducido en la primera generación",
+                    "potència": 75,
+                    "contacte": false
+                }
+            ],
+            "imatge": "https://images.wikidexcdn.net/mwuploads/wikidex/4/43/latest/20190406170624/Bulbasaur.png",
+            "evolucions": [
+                {
+                    "id": "0002",
+                    "nom": "Ivysaur",
+                    "nivell_evolució": 16
+                },
+                {
+                    "id": "0003",
+                    "nom": "Venusaur",
+                    "nivell_evolució": 32
+                }
+            ]
+        },
+        {
+            "id": "0004",
+            "nom": "Charmander",
+            "tipus":[
+                "foc"
+            ],
+            "pes": {
+                "unitat_de_mesura": "kg",
+                "valor": 8.5
+            },
+            "altura": {
+                "unitat_de_mesura": "m",
+                "valor": 0.6
+            },
+            "estadístiques": {
+                "velocitat": 3,
+                "fortalesa": 5,
+                "precisió": 4,
+                "resistència": 3
+            },
+            "moviments": [
+                {
+                    "nom": "Dragoaliento",
+                    "descripció": "es un movimiento de tipo dragón introducido en la segunda generación",
+                    "potència": 60,
+                    "contacte": false
+                },
+                {
+                    "nom": "Arañazo",
+                    "descripció": "es un movimiento de tipo normal introducido en la primera generación",
+                    "potència": 40,
+                    "contacte": true
+                }
+            ],
+            "imatge": "https://images.wikidexcdn.net/mwuploads/wikidex/5/56/latest/20200307023245/Charmander.png",
+            "evolucions": [
+                {
+                    "id": "0005",
+                    "nom": "Charmeleon",
+                    "nivell_evolució": 16
+                },
+                {
+                    "id": "0006",
+                    "nom": "Charizard",
+                    "nivell_evolució": 32
+                }
+            ]
+        }
+    ]
+}
